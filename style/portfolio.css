@@ -1,0 +1,38 @@
+/* body{
+    background-color: aqua;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.logo h2{
+    font-size: 45px;
+
+}
+.color-orange{
+    color: #FD6E0A;
+}
+header{
+    background-color: #FFF8F3;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+}
